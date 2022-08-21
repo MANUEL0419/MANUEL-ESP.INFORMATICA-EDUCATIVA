@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<style type="text/css">
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #050505;
+}
+body {
+	background-image: url(imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('botones/boton recurso2.png','botones/boton video2.png','botones/boton juego2.png','botones/boton ejercicio2.png','botones/boton foro2.png')">
+<table width="1024" border="0" align="center" cellpadding="0" cellspacing="10">
+  <tbody>
+    <tr>
+      <td height="84" colspan="2" align="center" valign="top"><img src="imagenes/titulo pagina.png" width="857" height="152" alt=""/></td>
+    </tr>
+    <tr>
+      <td width="776" height="35" align="center"><img src="imagenes/ejercicios.png" width="205" height="152" alt=""/></td>
+      <td width="232" rowspan="2" align="left" valign="top"><p><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('recurso','','botones/boton recurso2.png',1)"><img src="botones/boton recurso.png" alt="" width="170" height="126" id="recurso"></a></p>
+      <p><a href="video.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('video','','botones/boton video2.png',1)"><img src="botones/boton video.png" alt="" width="170" height="126" id="video"></a><a href="juego.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('juego','','botones/boton juego2.png',1)"><img src="botones/boton juego.png" alt="" width="170" height="126" id="juego"></a><a href="ejercicio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ejercicio','','botones/boton ejercicio2.png',1)"><img src="botones/boton ejercicio.png" alt="" width="170" height="126" id="ejercicio"></a><a href="foro.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('foro','','botones/boton foro2.png',1)"><img src="botones/boton foro.png" alt="" width="170" height="126" id="foro"></a></p></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+		  
+		  <iframe width="795" height="690" frameborder="0" src="https://es.educaplay.com/juego/12707116-herramientas_g_suite.html"></iframe></td>
+    </tr>
+    <tr>
+      <td height="42" align="center" valign="top">Especialización Informatica Educativa MALY&copy; 2022 Todos los Derehos Reservados</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
